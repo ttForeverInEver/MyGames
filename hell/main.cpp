@@ -55,6 +55,7 @@ public:
         srand(time(NULL));
         int d = 4;
         int b = 4;
+        Clock timer;
         Player sudo("rsudo.png", 250, 250, 70.0, 97.0);
         RenderWindow window(sf::VideoMode(1980, 1080), "SFML works!");
         Player p("hh.png", 250, 250, 60.0, 80.0);
@@ -81,6 +82,14 @@ public:
         Sprite shapka;
         tshapka.loadFromFile("image/shapka.png");
         shapka.setTexture(tshapka);
+        Texture tlsudo;
+        Texture trsudo;
+        tlsudo.loadFromFile("image/lsudo.png");
+        trsudo.loadFromFile("image/rsudo.png");
+        Texture twlsudo;
+        Texture twrsudo;
+        twlsudo.loadFromFile("image/lwsudo.png");
+        twrsudo.loadFromFile("image/rwsudo.png");
         bool shot = false;
         bool side = true;
         bool eb = false;
@@ -116,13 +125,18 @@ public:
                 p.sprite.move(0, -5);
             }
             if ((Keyboard::isKeyPressed(Keyboard::Left) || (Keyboard::isKeyPressed(Keyboard::A)))) {
-                sudo.sprite.move(-5, 0);
-                
+                sudo.sprite.move(-5, 0); 
+                sudo.sprite.setTexture(tlsudo);
+                if (lyeShapka == true) {
+                    sudo.sprite.setTexture(twlsudo);
+                }
             }
-            if ((Keyboard::isKeyPressed(Keyboard::Right) || (Keyboard::isKeyPressed(Keyboard::D)))) {
-                
-                sudo.sprite.move(5, 0);
-                
+            if ((Keyboard::isKeyPressed(Keyboard::Right) || (Keyboard::isKeyPressed(Keyboard::D)))) {   
+                sudo.sprite.move(5, 0);              
+                sudo.sprite.setTexture(trsudo);
+                if (lyeShapka == true) {
+                    sudo.sprite.setTexture(twrsudo);
+                }
             }
             if ((Keyboard::isKeyPressed(Keyboard::Down) || (Keyboard::isKeyPressed(Keyboard::S)))) {
                 sudo.sprite.move(0, 5);
@@ -181,6 +195,7 @@ public:
                 enemyBullety = 7;
                 bullet.setPosition(boss1.sprite.getPosition().x + 100, boss1.sprite.getPosition(). y + 100);
             }
+            
             if (p.sprite.getPosition().x >= 1900) {
                 p.sprite.move(-5, 0);
             }
@@ -233,6 +248,12 @@ public:
                 hp--;
                 shot = false;
                 bull.setPosition(2000, 2000);
+            }
+            if (sudo.sprite.getGlobalBounds().intersects(boss1.sprite.getGlobalBounds())) {
+                window.close();
+            }
+            if (sudo.sprite.getGlobalBounds().intersects(bullet.getGlobalBounds())) {
+                window.close();
             }
             if (shapka.getGlobalBounds().intersects(boss1.sprite.getGlobalBounds()) && person == 2 && hp > 0) {
                 lyeShapka = false;
