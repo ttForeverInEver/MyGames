@@ -1,1 +1,2 @@
 C:\IT\hell\x64\Debug\hell.exe
+C:\git\MyGames\hell\x64\Debug\hell.exe
