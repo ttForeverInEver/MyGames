@@ -10,8 +10,8 @@ C:\git\MyGames\hell\main.cpp(50,45): warning C4244:         [
 C:\git\MyGames\hell\main.cpp(50,45): warning C4244:             T=int
 C:\git\MyGames\hell\main.cpp(50,45): warning C4244:         ]
 C:\git\MyGames\hell\main.cpp(55,19): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-C:\git\MyGames\hell\main.cpp(159,38): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-C:\git\MyGames\hell\main.cpp(159,35): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-C:\git\MyGames\hell\main.cpp(269,43): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-C:\git\MyGames\hell\main.cpp(269,29): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\git\MyGames\hell\main.cpp(173,38): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\git\MyGames\hell\main.cpp(173,35): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\git\MyGames\hell\main.cpp(292,43): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\git\MyGames\hell\main.cpp(292,29): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
   hell.vcxproj -> C:\git\MyGames\hell\x64\Debug\hell.exe
