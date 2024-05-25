@@ -1,0 +1,17 @@
+﻿  main.cpp
+C:\IT\tmpSFML\main.cpp(26,53): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\IT\tmpSFML\main.cpp(26,45): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\IT\tmpSFML\main.cpp(41,31): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\IT\tmpSFML\main.cpp(54,30): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\IT\tmpSFML\main.cpp(56,35): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\IT\tmpSFML\main.cpp(62,30): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\IT\tmpSFML\main.cpp(64,35): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\IT\tmpSFML\main.cpp(78,39): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\IT\tmpSFML\main.cpp(78,28): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+main.obj : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в main.obj
+main.obj : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в main.obj
+main.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/OPT:ICF"
+LINK : warning LNK4098: библиотека по умолчанию "MSVCRTD" конфликтует с использованием других библиотек; используйте /NODEFAULTLIB:library
+main.obj : error LNK2001: неразрешенный внешний символ __imp__calloc_dbg.
+MSVCRT.lib(exe_winmain.obj) : error LNK2001: неразрешенный внешний символ WinMain.
+C:\IT\tmpSFML\x64\Release\tmpSFML.exe : fatal error LNK1120: неразрешенных внешних элементов: 2

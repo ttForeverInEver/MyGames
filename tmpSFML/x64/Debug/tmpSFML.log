@@ -1,0 +1,19 @@
+﻿  main.cpp
+C:\IT\tmpSFML\main.cpp(51,48): warning C4244: аргумент: преобразование "float" в "T", возможна потеря данных
+C:\IT\tmpSFML\main.cpp(51,48): warning C4244:         with
+C:\IT\tmpSFML\main.cpp(51,48): warning C4244:         [
+C:\IT\tmpSFML\main.cpp(51,48): warning C4244:             T=int
+C:\IT\tmpSFML\main.cpp(51,48): warning C4244:         ]
+C:\IT\tmpSFML\main.cpp(51,45): warning C4244: аргумент: преобразование "float" в "T", возможна потеря данных
+C:\IT\tmpSFML\main.cpp(51,45): warning C4244:         with
+C:\IT\tmpSFML\main.cpp(51,45): warning C4244:         [
+C:\IT\tmpSFML\main.cpp(51,45): warning C4244:             T=int
+C:\IT\tmpSFML\main.cpp(51,45): warning C4244:         ]
+C:\IT\tmpSFML\main.cpp(56,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\IT\tmpSFML\main.cpp(199,34): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\IT\tmpSFML\main.cpp(199,31): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\IT\tmpSFML\main.cpp(333,39): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\IT\tmpSFML\main.cpp(333,25): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\IT\tmpSFML\main.cpp(336,41): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\IT\tmpSFML\main.cpp(336,34): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  tmpSFML.vcxproj -> C:\IT\tmpSFML\x64\Debug\tmpSFML.exe
